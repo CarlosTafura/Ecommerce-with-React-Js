@@ -25,7 +25,7 @@ const NavBar = ({ name, lastname }) => {
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <NavLink to="/">
-          <img src={logo} alt="logo" class="me-2 log " width="110" />
+          <img src={logo} alt="logo" class="m-1 log " width="110" />
         </NavLink>
         <div class="container px-4 px-lg-5">
           <Link class="navbar-brand" to={"/"}>
